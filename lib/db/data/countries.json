@@ -1476,7 +1476,7 @@
     "cioc": "BHU"
   },
   {
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "topLevelDomain": [".bo"],
     "alpha2Code": "BO",
     "alpha3Code": "BOL",
@@ -1968,7 +1968,7 @@
     "cioc": ""
   },
   {
-    "name": "Virgin Islands (British)",
+    "name": "British Virgin Islands",
     "topLevelDomain": [".vg"],
     "alpha2Code": "VG",
     "alpha3Code": "VGB",
@@ -3098,7 +3098,7 @@
     "cioc": "COM"
   },
   {
-    "name": "Congo",
+    "name": "Congo, Democratic Republic of",
     "topLevelDomain": [".cg"],
     "alpha2Code": "CG",
     "alpha3Code": "COG",
@@ -6251,7 +6251,7 @@
     "cioc": "CIV"
   },
   {
-    "name": "Iran (Islamic Republic of)",
+    "name": "Iran, Islamic Republic of",
     "topLevelDomain": [".ir"],
     "alpha2Code": "IR",
     "alpha3Code": "IRN",
@@ -7693,7 +7693,7 @@
     "cioc": ""
   },
   {
-    "name": "Macedonia (the former Yugoslav Republic of)",
+    "name": "Macedonia",
     "topLevelDomain": [".mk"],
     "alpha2Code": "MK",
     "alpha3Code": "MKD",
@@ -8507,7 +8507,7 @@
     "cioc": "FSM"
   },
   {
-    "name": "Moldova (Republic of)",
+    "name": "Moldova",
     "topLevelDomain": [".md"],
     "alpha2Code": "MD",
     "alpha3Code": "MDA",
@@ -9562,7 +9562,7 @@
     "cioc": ""
   },
   {
-    "name": "Korea (Democratic People's Republic of)",
+    "name": "Korea, Democratic People's Republic of",
     "topLevelDomain": [".kp"],
     "alpha2Code": "KP",
     "alpha3Code": "PRK",
@@ -12220,7 +12220,7 @@
     "cioc": ""
   },
   {
-    "name": "Korea (Republic of)",
+    "name": "Korea, Republic of",
     "topLevelDomain": [".kr"],
     "alpha2Code": "KR",
     "alpha3Code": "KOR",
@@ -13826,7 +13826,7 @@
     "cioc": "UAE"
   },
   {
-    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "name": "United Kingdom",
     "topLevelDomain": [".uk"],
     "alpha2Code": "GB",
     "alpha3Code": "GBR",
@@ -14133,7 +14133,7 @@
     "cioc": "VAN"
   },
   {
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela, Bolivarian Republic of",
     "topLevelDomain": [".ve"],
     "alpha2Code": "VE",
     "alpha3Code": "VEN",
@@ -14250,7 +14250,7 @@
     "cioc": "VIE"
   },
   {
-    "name": "Wallis and Futuna",
+    "name": "Wallis and Futuna Islands",
     "topLevelDomain": [".wf"],
     "alpha2Code": "WF",
     "alpha3Code": "WLF",

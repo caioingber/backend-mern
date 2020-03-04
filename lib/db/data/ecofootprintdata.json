@@ -920,7 +920,7 @@
     "Data Quality": "3B"
   },
   {
-    "country": "Congo",
+    "country": "Congo, Democratic Republic of",
     "region": "Africa",
     "Population (millions)": 4.34,
     "hdi": 0.57,
@@ -2300,7 +2300,7 @@
     "Data Quality": "3B"
   },
   {
-    "country": "Libyan Arab Jamahiriya",
+    "country": "Libya",
     "region": "Africa",
     "Population (millions)": 6.16,
     "hdi": 0.74,
@@ -2369,7 +2369,7 @@
     "Data Quality": 5
   },
   {
-    "country": "Macedonia TFYR",
+    "country": "Macedonia",
     "region": "Northern/Eastern Europe",
     "Population (millions)": 2.11,
     "hdi": 0.74,
@@ -3335,7 +3335,7 @@
     "Data Quality": "3B"
   },
   {
-    "country": "Saint Vincent and Grenadines",
+    "country": "Saint Vincent and the Grenadines",
     "region": "Latin America",
     "Population (millions)": 0.11,
     "hdi": 0.72,
