@@ -123,3 +123,33 @@ Returns a list of all countries with an excess biocapacityReserve (greater than 
 Returns a list of all countries with a depleted biocapacityReserve (less than 0), meaning they expend more resources than they have maintained.
 
 ## Models Used
+
+I utilized two models to initially seed my data and then re-seeded the data so that country demographic data would be nested within other ecological data.
+
+```Javascript
+
+const Eco = new Schema({
+  country: {},
+  region: String,
+  hdi: Number,
+  gdpPerCapita: String,
+  cropFootprint: Number,
+  forestFootprint: Number,
+  carbonFootprint: Number,
+  ecoFootprint: Number,
+  totalBiocapacity: Number,
+  biocapacityReserve: Number
+});
+
+const Country = new Schema({
+  name: String,
+  capital: String,
+  region: String,
+  subregion: String,
+  population: Number,
+  area: Number,
+  gini: Number,
+  flag: String
+});
+
+```
