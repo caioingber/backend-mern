@@ -2,6 +2,17 @@
 
 This API utilizes a combination of data from the restcountries.eu API as well as a Kaggle database on ecological footprints by country in 2016. By constructing this API, I hope to bring to light the correlation between inequality and environmental impact.
 
+## RESTful Paths
+
+| Method |      Path      | Description                                   |
+| ------ | :------------: | --------------------------------------------- |
+| GET    |      /all      | Show all countries                            |
+| POST   |      /all      | Add a country                                 |
+| GET    | /country/:name | Show a country by its name                    |
+| GET    |    /excess     | Show all countries with excess biocapacity    |
+| GET    |    /deplete    | Show all countries with depleting biocapacity |
+| DELETE |    /all/:id    | Delete a country by its ObjectID              |
+
 ## Version: 0.1
 
 ### /all
@@ -54,7 +65,7 @@ Will add an additional country to the list. Please note that due to the fact tha
 
 ### /country/{name}
 
-#### POST
+#### GET
 
 ##### Description:
 
