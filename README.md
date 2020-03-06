@@ -2,6 +2,31 @@
 
 This API utilizes a combination of data from the restcountries.eu API as well as a Kaggle database on ecological footprints by country in 2016. By constructing this API, I hope to bring to light the correlation between inequality and environmental impact.
 
+You can access the deployed API [here](https://country-ecofootprint-api.herokuapp.com/).
+
+## Development
+
+I utilized RESTful methods to implement this API. 
+
+## Improvements
+
+## Contributions
+
+I welcome any and all feedback on this project. Please fork and clone the repository and submit a pull request with any changes. To ensure that you are able to run the project locally, be sure to install the following dependencies:
+
+`npm i mongoose`
+`npm i express`
+`npm i body-parser`
+`npm i node-fetch`
+
+## Technologies Used
+
+* MongoDB
+* Mongoose ODM
+* Express.js
+* Heroku
+* Artillery (testing)
+
 ## RESTful Paths
 
 | Method |      Path      | Description                                   |
@@ -13,7 +38,7 @@ This API utilizes a combination of data from the restcountries.eu API as well as
 | GET    |    /deplete    | Show all countries with depleting biocapacity |
 | DELETE |    /all/:id    | Delete a country by its ObjectID              |
 
-## Version: 0.1
+## API Details: Version: 0.1
 
 ### /all
 
@@ -23,9 +48,11 @@ This API utilizes a combination of data from the restcountries.eu API as well as
 
 Returns a list of all countries. Query strings have been implemented on this path and can be utilized to filter by all key-value pairs. Nested properties must be called utilizing dot notation. For any additional queries, separate with '&' character. Please reference the Models section below for a list of all accepted query parameters.
 
+`/all?<key>=<value>&<key2>=<value2>`
+
 ##### Example:
 
-/all?country.region=Africa&hdi=1.0
+`/all?country.region=Africa&hdi=1.0`
 
 returns:
 
@@ -165,4 +192,7 @@ const Country = new Schema({
 
 ```
 
-# backend-mern
+## Acknowledgements
+
+* [Rest Countries API](https://restcountries.eu/)
+* Global Footprint Network [Dataset](https://www.kaggle.com/footprintnetwork/ecological-footprint)
